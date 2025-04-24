@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "Primer proyecto con Express y TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Vargas",
+  "license": "ISC"
+}
