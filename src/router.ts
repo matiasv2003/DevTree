@@ -1,12 +1,9 @@
 import {Router} from "express"
+import User from "./models/user"
+import { createAccount } from "./handlers"
 
 const router = Router()
 
-router.get("/auth/register", (req, res) => {
-    console.log("Desde Register")
-})
-router.post("/auth/register", (req, res) => {
-    console.log(req)
-})
-
+router.post("/auth/register", createAccount)
+    
 export default router
